@@ -5,3 +5,5 @@ const router = express.Router();
 
 router.post('/:id/foto', upload.single('foto'), controller.uploadFoto);
 router.get(':id/aluno', controller.verFoto);
+
+export default router
